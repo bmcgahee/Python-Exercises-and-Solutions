@@ -1,0 +1,17 @@
+Exercise #2:  Write a script in Python that asks the user to input and display the following:
+A. Name
+B. Address
+C. City
+D. State
+E. Zipcode
+F. Phone Number
+
+The output should look like the following.
+
+Name: John Smith
+Address: 314 Elm St.
+City: Tucson
+State: AZ
+Zipcode: 85703
+Phone Number: (520)-630-8149
+

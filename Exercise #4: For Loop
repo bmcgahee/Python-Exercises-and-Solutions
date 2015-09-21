@@ -1,0 +1,35 @@
+Exercise #4: For Loop
+
+A. Write a program in Python that uses a for loop to display 1 star in the first row, 2 stars in the second row, 
+3 stars in the third row, 4 stars in the fourth row, and 5 stars in the fifth row.
+Also, use the for loop to calculate the total number of stars 
+
+Your output should look like the following.
+
+*
+**
+***
+****
+*****
+The star pyramid contains 15 stars.  
+
+B. Write a program in Python that asks the user how many natural numbers they want to search in the for loop.  
+   User must request at least two numbers, but the more numbers you have the longer the search and 
+   more results you will get.  
+   
+   Note:  The set of natural numbers N = 1, 2, 3, 4, 5,...
+   
+   Your for loop in the program must calculate and display the following.
+   
+   1. All odd numbers between 1 and N that are divisible by three.
+   2. The total amount of odd numbers betweeen 1 and N that are divisible by three.  
+   
+   For example, if you want to let N = 20, then your output should look like this.
+   
+   3
+   9
+   15
+   Total amount of odd numbers that are divisible by three between the numbers 1 and 20 is: 3
+   
+   
+   

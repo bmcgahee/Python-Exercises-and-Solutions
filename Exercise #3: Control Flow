@@ -1,0 +1,30 @@
+Exercise #3:  Control Flow
+
+A.  When election time is near, some people need to sign up and register to vote.  
+    Your task is to ask the user what their age is and what party they want to register for.  
+    Only people who are at least 18 years of age can register to vote.
+    
+    Here is what the following output should look like.
+    
+    Name: Alice Johnson
+    Age:  21
+    Party: Republican
+    
+B.  You are a computer science instructor at a university, and you want to write a program that does the following.
+    Ask the student their first name, last name, course name, and five test scores.  
+    The program should calculate the average of the student's five test scores and tells the student their final grade.
+    
+    The final grade is based on the following criteria:
+    
+    A: 90-100%
+    B: 80-89%
+    C: 70-79%
+    D: 60-69%
+    F: Below 60%
+    
+    Here is what the following output should look like.
+    
+    Name:  Michael Hastings
+    Course: CS 101: Introduction to Computer Science
+    Average: 85%
+    Grade: B

@@ -4,9 +4,9 @@ Which one is the most practical to use and why?
 
 A. i = 0
    while i < 10:
-      print "$" + i
+      print "$" + str(i)
 
 B. i = 0
    while i < 10:
-      print "$" + i
+      print "$" + str(i)
       i = i + 1

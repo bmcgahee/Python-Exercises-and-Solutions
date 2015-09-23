@@ -1,0 +1,12 @@
+Exercise #5:  While Loop
+How many times does each while loop execute?
+Which one is the most practical to use and why?
+
+A. i = 0
+   while i < 10:
+      print "$" + i
+
+B. i = 0
+   while i < 10:
+      print "$" + i
+      i = i + 1

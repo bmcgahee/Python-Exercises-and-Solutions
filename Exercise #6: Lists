@@ -1,0 +1,24 @@
+Exercise #6: Lists
+
+1. Write a program that asks the user to enter five of your favorite foods in no particular orderand store them in a list.
+Make sure you sort all the items in the list in alphabetical order.  
+
+For example, if your five favorite foods are pizza, steak, chicken, hamburger, and ice cream, then your output should 
+look like this.
+
+['chicken', 'hamburger', 'ice cream', 'pizza', 'steak']
+
+2. Write a program that asks the user to enter in 3 numbers for one list and 3 numbers for another list.  Then find the sum 
+and difference of the corresponding elements in the list.  
+
+For example if list A = [1, 2, 4] and list B = [-1, 3, 5] then the sum A + B = [0, 5, 9] and 
+the difference A - B = [2, -1, -1].
+
+So, the output should look like this.
+
+The sum is:
+[0, 5, 9]
+The difference is:
+[2, -1, -1]
+
+

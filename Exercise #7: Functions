@@ -1,0 +1,19 @@
+Exercise #7: Functions
+
+1. Create a function called "average" that takes in 2 numbers and returns the average of those 2 numbers.
+   Call the function and input 2 numbers to make sure it works.  
+
+2. Create a function called "longString that takes in a string and returns true if the length of the string
+   is at least 10 characters or false if the length of the string is less than 10 characters.
+
+3. Create a function called "guessMyNumber that takes in one number between 1-50.  The function must
+   contain a random number variable.  If the input number is the same as the random number, return "you win!"
+   Otherwise, return "sorry, you lose."  
+
+4. Create a function called "reverse" that takes in a string and returns the reversed string.  
+   You may use a Python function to reverse the string if you like.  
+   For example, reverse("hello") = "olleh".
+   
+5. Create a function called "sortList" that takes in 5 numbers, stores them into a list in that order, 
+   and then sorts them in ascending order.  The function must return the original list and the sorted list.
+   You may use a Python function to sort the list if you like.

@@ -1,0 +1,18 @@
+Exercise #10:  Modules
+
+1.  Import the time module with the time.sleep(seconds) function to write a program that displays countdown starting at 10 
+    all the way down to 1 with one second intervals between counts and then prints out the statement "Blast off!"
+    Hint:  Use a For Loop to do this.  You can only use the time.sleep(seconds) function once in the program.
+
+2.  Import the datetime module to show the current date and time.  Then find the number of days from the current date until
+    Thanksgiving 2015.
+
+3.  Import the math module to calculate the following.
+    a) Find the sum of the set of values {1, 1/2, 1/4, 1/8, 1/16, 1/32}.  
+       If you continue to include more numbers with this pattern, what value does this sum approach?
+    b) Round the value of pi to 15 decimal places.
+    c) Use the modulus function math.fmod(x, y) to find the remainder of 256 / 77. 
+    d) Find the greatest common divisor of 1776 and 2012 by using the following code snippet below.
+       What is the least common multiple of these numbers?  Hint:  lcm(x, y) = x*y / gcd(x, y)
+       from fractions import gcd
+    

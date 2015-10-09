@@ -1,0 +1,10 @@
+Exercise #9:  Recursion
+
+1.  Write a recursive function that returns the factorial of a number n, i.e. n! = n*(n - 1)*(n - 2)*....*1
+    What is the value of 50!?
+
+2.  Write a recursive function that is based on the recursive sequence a(1) = 2, a(n+1) = a(n) - 1.
+    What is the value of a(100)?
+
+3.  Write a recursive function that returns the nth Fibonacci number.  
+    The Fibonacci numbers are 1, 1, 2, 3, 5, 8, 13,... What is the 32nd Fibonacci number?  

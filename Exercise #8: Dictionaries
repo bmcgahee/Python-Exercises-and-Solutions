@@ -1,0 +1,25 @@
+Exercise #8:  Dictionaries
+
+1.  Create a dictionary that contains the following key/value pairs for the starting players on a basketball team and 
+their corresponding numbers.
+
+Name           Number
+Josh Hurley    27
+David Platt    14
+Peter Smith    6
+Bo Devin       1
+Trey Braxton   33
+
+2.  Create a dictionary that contains the following words and their definitions.
+
+Word          Definition
+golf          an outdoor sport that is played with clubs, a ball, and a tee on a course
+mathematics   the science of numbers, patterns, and reasoning
+water         a clear, odorless, and colorless liquid that people drink
+computer      a machine that takes in input, processes, calculates, and returns output
+vehicle       an object that has four wheels that people drive from one place to another
+
+With this dictionary, create a program that checks whether a specific word exists in the dictionary.
+If the word does not exist, add the word and its definition to the dictionary.
+If the word does exist, display its definition.  
+

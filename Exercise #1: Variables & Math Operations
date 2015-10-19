@@ -2,7 +2,7 @@ Exercise #1:  Write a script in Python that stores the number 2 in a variable ca
 the number 7 in a variable called y, and the number -10 in a variable called z.  Calculate each of the following.
 A. x + y
 B. y - z
-C. z / x
+C. z / y
 What do you notice when doing C.?
 Is it mathematically accurate?
 If not, how can you fix it?

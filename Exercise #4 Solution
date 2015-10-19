@@ -1,0 +1,26 @@
+Here are the solutions for Exercise #4
+
+A.
+stars = 0
+for i in range(1, 6):
+    print "*" * i
+    stars = stars + i
+print "The star pyramid contains " + str(stars) + " stars."
+
+B.
+numbers = int(raw_input("How many natural numbers do you want to search? "))
+count = 0
+for i in range(1, numbers + 1):
+    if i % 3 == 0 and i % 2 != 0:
+        print i
+        count += 1
+print "Total amount of odd numbers that are divisible by three between the number 1 and " + str(numbers) + " is: " + str(count)
+
+    
+
+    
+
+
+
+
+

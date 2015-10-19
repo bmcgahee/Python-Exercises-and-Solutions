@@ -1,0 +1,12 @@
+Here is Exercise #1 Solution:
+
+x = 2
+y = 7
+z = -10
+
+print x + y
+print y - z
+print z / y
+
+The way to get an accurate result for z / y is to make z = -10.0 and/or y = 7.0.  
+At least one of these variables must be a float data type to avoid any roundoff errors.

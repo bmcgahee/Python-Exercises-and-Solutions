@@ -1,0 +1,36 @@
+Here is the solution to Exercise #3.
+
+firstName = raw_input("Enter your first name: ")
+lastName = raw_input("Enter your last name: ")
+course = raw_input("Enter your course name: ")
+testScore1 = int(raw_input("Enter first test score: "))
+testScore2 = int(raw_input("Enter second test score: "))
+testScore3 = int(raw_input("Enter third test score: "))
+testScore4 = int(raw_input("Enter fourth test score: "))
+testScore5 = int(raw_input("Enter fifth test score: "))
+
+average = (testScore1 + testScore2 + testScore3 + testScore4 + testScore5) / 5.0
+grade = round(average, 0)
+letter = " "
+
+if grade >= 90:
+    letter = "A"
+elif grade >= 80:
+    letter = "B"
+elif grade >= 70:
+    letter = "C"
+elif grade >= 60:
+    letter = "D"
+else:
+    letter = "F"
+
+print "Name: " + firstName + " " + lastName
+print "Course: " + course
+print "Average: " + str(grade) + "%"
+print "Grade: " + letter
+    
+
+
+
+
+

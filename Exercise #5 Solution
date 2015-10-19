@@ -1,0 +1,20 @@
+Here are the solutins for Exercise #5.
+
+A.
+i = 0
+while i < 10:
+    print "$" + str(i)
+
+This while loop executes an infinite number of times since 0 < 10,
+and the value of i is not increasing inside the while loop.
+
+B.
+i = 0
+while i < 10:
+    print "$" + str(i)
+    i = i + 1
+
+This while loop executes 10 times since 9 - 0 + 1 = 10.
+
+The while loop that is more practical to use is the one that will eventually terminate when a given condition is false.  
+So, B. is the more practical while loop.

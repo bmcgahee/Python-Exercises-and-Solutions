@@ -1,0 +1,36 @@
+Here are the solutions for Exercise #9.
+
+#1
+def factorial(n):
+    if n == 0:
+        return 1
+    elif n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+Python returns a value of 30414093201713378043612608166064768844377641568960512000000000000L for factorial(50) or 50!.
+
+#2
+def a(n):
+    if n == 1:
+        return 2
+    else:
+        return a(n - 1) - 1
+
+Python returns a value of -97 for a(100).
+
+#3
+def fib(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    else:
+        return fib(n - 1) + fib(n - 2)
+
+Python returns a value of 2178309 for fib(32), which is the 32nd Fibonacci number.
+
+
+
+    

@@ -1,0 +1,48 @@
+#1
+import time
+for i in range(10, 0, -1):
+    print i
+    time.sleep(1)
+print "Blast off!"
+
+#2
+import datetime
+today = datetime.datetime.now()
+print today
+thanksgiving = datetime.datetime(2015, 11, 26)
+diff = thanksgiving - today
+days = diff.days
+print "The number of days from now until Thanksgiving is: " + str(days) + " days."
+
+
+#3
+A
+import math
+numbers = [1, 1.0/2, 1.0/4, 1.0/8, 1.0/16, 1.0/32]
+add = sum(numbers)
+print add
+
+Sum is: 1.96875
+If you continue this pattern, the sum of the numbers will approach the value of 2.
+
+B
+roundPi = round(math.pi, 15)
+print roundPi
+
+3.14159265359
+
+C
+remainder = math.fmod(256, 77)
+print remainder
+
+256 mod 77 = 25
+
+D
+from fractions import gcd
+gcd = gcd(1776, 2012)
+lcm = 1776 * 2012 / gcd
+print gcd
+print lcm
+
+gcd(1776, 2012) = 4
+lcm(1776, 2012) = 893328

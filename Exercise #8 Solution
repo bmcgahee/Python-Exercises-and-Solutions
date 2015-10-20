@@ -1,0 +1,27 @@
+Here are the solutions for Exericse #8.
+
+A.
+basketballDict = {'Josh Hurley': 27, 'David Platt': 14, 'Peter Smith': 6, 'Bo Devin': 1, 'Trey Braxton': 33}
+
+B.
+dictionary = {}
+
+add_or_look = raw_input("Add or look up a word (a/l)? ")
+
+while add_or_look == "a" or add_or_look == "l":
+    if add_or_look == "a":
+        word = raw_input("Type the word: ")
+        definition = raw_input("Type the definition: ")
+        dictionary[word] = definition
+        print "Word added!"
+    elif add_or_look == "l":
+        word = raw_input("Type the word: ")
+        if word in dictionary.keys():
+            print dictionary[word]
+        else:
+            print "That word isn't in the dictionary yet."
+    else:
+        break 
+    add_or_look = raw_input("Add or look up a word (a/l)? ")	
+print dictionary.keys()
+print dictionary.values()

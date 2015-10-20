@@ -1,0 +1,35 @@
+import random
+
+#1
+def average(x, y):
+    avg = (x + y) / 2.0
+    return avg
+
+#2
+def longString(string):
+    if len(string) >= 10:
+        return True
+    else:
+        return False
+
+#3
+def guessMyNumber(number):
+    correct = random.randint(1, 50)
+    if number == correct:
+        return "you win!"
+    else:
+        return "sorry, you lose"
+
+#4
+def reverse(string):
+    rev = string[::-1]
+    return rev
+
+#5
+def sortList(a, b, c, d, e):
+    numList = [a, b, c, d, e]
+    print numList
+    sortList = sorted(numList)
+    return sortList
+
+

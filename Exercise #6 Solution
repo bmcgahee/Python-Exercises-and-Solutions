@@ -1,0 +1,33 @@
+Here are the solutions for Exercise #6.
+
+A.
+favFood1 = raw_input("Enter your first favorite food: ")
+favFood2 = raw_input("Enter your second favorite food: ")
+favFood3 = raw_input("Enter your third favorite food: ")
+favFood4 = raw_input("Enter your fourth favorite food: ")
+favFood5 = raw_input("Enter your fifth favorite food: ")
+
+favFoodList = [favFood1, favFood2, favFood3, favFood4, favFood5]
+sortFavFoodList = sorted(favFoodList)
+
+print sortFavFoodList
+
+B.
+list1Num1 = int(raw_input("Enter number in first list: "))
+list1Num2 = int(raw_input("Enter number in first list: "))
+list1Num3 = int(raw_input("Enter number in first list: "))
+
+list2Num1 = int(raw_input("Enter number in second list: "))
+list2Num2 = int(raw_input("Enter number in second list: "))
+list2Num3 = int(raw_input("Enter number in second list: "))
+
+list1 = [list1Num1, list1Num2, list1Num3]
+list2 = [list2Num1, list2Num2, list2Num3]
+
+sumList = [list1Num1 + list2Num1, list1Num2 + list2Num2, list1Num3 + list2Num3]
+diffList = [list1Num1 - list2Num1, list1Num2 - list2Num2, list1Num3 - list2Num3]
+
+print "The sum is: "
+print sumList
+print "The difference is: "
+print diffList

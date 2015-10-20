@@ -1,9 +1,9 @@
 Here are the solutions for Exericse #8.
 
-A.
+#1
 basketballDict = {'Josh Hurley': 27, 'David Platt': 14, 'Peter Smith': 6, 'Bo Devin': 1, 'Trey Braxton': 33}
 
-B.
+#2
 dictionary = {}
 
 add_or_look = raw_input("Add or look up a word (a/l)? ")
